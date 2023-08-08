@@ -1,0 +1,569 @@
+body{
+    margin: 0;
+    background-color: #000000;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+h1, h2, h3, h4, h5{
+    font-weight: 400;
+}
+nav>div, #community section, #build section{
+    width: 63.5vw;
+}
+/*-----------------------------------------------header---------------------------------------------------*/
+header{
+    height: 33px;
+    text-align: center;
+    background: rgb(0,188,212);
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
+}
+header p{
+    margin: 0;
+    color: #000;
+    font-size: calc(8px + 0.45vw);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.01vw;
+    text-transform: uppercase;
+}
+/*---------------------------------------------navigation--------------------------------------------------*/
+nav{
+    height: 60px;
+}
+nav div{
+    height: calc(14px + 0.65vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>div>a, nav img{
+    height: 100%;
+}
+nav div a{
+    font-family: Helvetica;
+    font-size: calc(10px + 0.36vw);
+    margin: 0 1.3vw 0 2vw;
+}
+/*-------------------------------------------hero_content---------------------------------------------------*/
+#hero_content{
+    height: 505px;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 54px;
+    row-gap: 26px;
+}
+#hero_content div h1{
+    margin: 0;
+    font-size: calc(32px + 1.82vw);
+    letter-spacing: 0.05vw;
+}
+.title>h1:first-child{
+    font-size: calc(33px + 1.89vw);
+}
+#hero_content p{
+    width: 34vw;
+    font-size: calc(10px + 0.52vw);
+    line-height: 25px;
+    letter-spacing: 0.02vw;
+}
+.buttonsWraper{
+    display: flex;
+    column-gap: 1vw;
+}
+.buttonsWraper a:last-child{
+    border: 1px solid #FFF;
+    background: none;
+}
+/*----------------------------------------------client------------------------------------------------------*/
+#client{
+    height: 100px;
+}
+#client p{
+    color: #618ADC;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: calc(7px + 0.39vw);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.052vw;
+    text-transform: uppercase;
+}
+#client div{
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5vw;
+    margin-top: 26px;
+}
+#brave, #discord, #lollapalooza{
+    width: calc(26.25px + 5.3vw);
+}
+#circle{
+    width: calc(30px + 6.05vw);
+    height: calc(7.8px + 1.58vw);
+}
+#google, #jump_{
+    width: calc(20.63px + 4.16vw)
+}
+#magic_eden{
+    width: calc(33.75px + 6.82vw);
+}
+/*----------------------------------------------community--------------------------------------------------*/
+#community{
+    height: 1480px;
+    flex-direction: column;
+    row-gap: 80px;
+}
+#community section{
+    height: 540px;
+    display: flex;
+}
+#community section>div:first-child{
+    height: 88%;
+    position: relative;
+    top: 12%;
+}
+#community section>div:last-child{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#community h2, h4{
+    margin: 0;
+    font-size: calc(8.2px + 1.65vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: calc(9.8px + 1.97vw);
+}
+#community p{
+    margin-top: 10px;
+    color: #C4C4C4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+/*--------------------------------------------statistics-----------------------------------------------*/
+#statistics>div{
+    width: 50%;
+}
+#statistics>div:last-child{
+    row-gap: 50px;
+}
+#statistics h3{
+    margin: 0;
+    font-size: calc(22px + 4.43vw);
+    font-weight: 400;
+    background: linear-gradient(228deg, #19FB9B 0%, #8C01FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#statistics div>div:nth-child(n + 2) h3{
+    font-size: calc(23px + 4.63vw);
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
+    -webkit-background-clip: text;
+}
+#statistics div>div:nth-child(n + 3) h3{
+    font-size: calc(23.7px + 4.78vw);
+    background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
+    -webkit-background-clip: text;
+}
+/*------------------------------------------------advantages-------------------------------------------*/
+#community #advantages{
+    height: 650px;
+}
+#advantages>div:first-child{
+    width: 30%;
+}
+#advantages>div:last-child{
+    width: 70%;
+}
+#advantages>div>div{
+    width: 45%;
+    height: 45%;
+    top: 10%;
+    position: relative;
+    flex-direction: column;
+    left: 5%;
+}
+#advantages>div>div>p, h4{
+    margin: 0;
+    width: 74%;
+}
+#advantages div div div{
+    margin-top: 10px;
+    width: 74%;
+}
+#advantages>div>div:nth-child(n+3) p, h4{
+    width: 76%;
+}
+#advantages>div>div:nth-child(n+3) div{
+    width: 76%;
+}
+#advantages>div>div>div>h4{
+    font-size: calc(13px + 0.52vw);
+}
+#advantages>div>div>div>p{
+    margin: 5px 0 0 0;
+}
+#advantages div div:nth-child(n+3){
+    top: 0;
+}
+#advantages div div:nth-child(n+4){
+    top: 5%;
+}
+#advantages h4{
+    font-size: calc(14px + 0.65vw);
+}
+#advantages a, span{
+    color: #19FB9B;
+}
+#advantages .advantagesFontStyle{
+    font-family: Helvetica;
+    font-size: calc(10px + 0.36vw);
+    line-height: calc(14px + 0.65vw);
+}
+/*------------------------------------------------build-------------------------------------------------*/
+#build{
+    height: 1430px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#build section{
+    height: 510px;
+}
+#build h2{
+    margin: 0;
+    font-size: calc(8.2px + 1.65vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/*------------------------------------------------buildForGrowth---------------------------------------------*/
+#buildForGrowth{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    column-gap: 1vw;
+    position: relative;
+}
+#buildForGrowth>div:first-child{
+    position: absolute;
+    left: 0;
+}
+#buildForGrowth input{
+    display: none;
+}
+#buildForGrowth label{
+    height: 16px;
+    font-size: calc(7.5px + 0.43vw);
+    border-radius: 15px;
+    border: 1px solid #111;
+    background: #111;
+    padding: 0.8vw 0.8vw;
+}
+.content{
+    order: 1;
+    display: none;
+}
+#buildForGrowth input:checked + label + .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#buildForGrowth input:checked + label{
+    border: 1px solid #A962FF;
+}
+.main_content{
+    display: flex;
+}
+.main_content>img, .main_content div{
+    width: 50%;
+}
+.main_content div{
+    border-radius: 0 12px 12px 0;
+    background: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+}
+.main_content div p{
+    width: 70%;
+    font-size: calc(10px + 0.53vw);
+    line-height: calc(14px + 0.65vw);
+    margin-left: 9%;
+}
+.main_content div img{
+    width: 45%;
+    margin-left: 9%;
+}
+.main_content div a{
+    font-size: 18.5px;
+    text-decoration: none;
+    color: #A962FF;
+    margin-left: 9%;
+}
+.logosForContent{
+    height: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(38, 31, 38, 0.30);
+}
+#buildForGrowth .logosForContent img{
+    height: 70%;
+}
+#buildForGrowth .logosForContent>img:first-child{
+    height: 50%;
+}
+#buildForGrowth .logosForContent>img:last-child{
+    height: 45%;
+}
+/*
+#buildForGrowth{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+#buildForGrowth>div{
+    width: 100%;
+    display: flex;
+}
+#buildForGrowth .navigation{
+    height: 9%;
+    position: relative;
+}
+#buildForGrowth .navigation div div{
+    border-radius: 15px;
+    border: 1px solid #111;
+    background: #111;
+    padding: 0 1.5vh;
+}
+#buildForGrowth .navigation div div p{
+    font-size: calc(7.5px + 0.43vw);
+}
+#buildForGrowth .navigation div:first-child{
+    border: 1px solid #A962FF;
+}
+#buildForGrowth .navigation>div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+}
+#buildForGrowth .content>img{
+    width: 50%;
+}
+#buildForGrowth .content div{
+    width: 50%;
+    border-radius: 0 12px 12px 0;
+    background: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+#buildForGrowth .content div p{
+    width: 70%;
+    font-size: calc(10px + 0.53vw);
+    line-height: calc(14px + 0.65vw);
+    margin-left: 9%;
+}
+#buildForGrowth .content div img{
+    width: 45%;
+    margin-left: 9%;
+}
+#buildForGrowth .content div a{
+    font-size: 18.5px;
+    text-decoration: none;
+    color: #A962FF;
+    margin-left: 9%;
+}
+#buildForGrowth .logosForContent{
+    height: 11%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(38, 31, 38, 0.30);
+}
+#buildForGrowth .logosForContent img{
+    height: 70%;
+}
+#buildForGrowth .logosForContent>img:first-child{
+    height: 50%;
+}
+#buildForGrowth .logosForContent>img:last-child{
+    height: 45%;
+}
+ */
+/*--------------------------------------------build_ourCommunity---------------------------------------------*/
+#build #ourCommunity{
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+}
+#ourCommunity>h2{
+    height: 9%;
+}
+#ourCommunity>div:last-child{
+    height: 45%;
+    flex-direction: column;
+    row-gap: 16px;
+    bottom: 0;
+}
+#ourCommunity div h2{
+    width: 70%;
+    line-height: 40px;
+    text-align: center;
+}
+#ourCommunity .wraper{
+    display: flex;
+    justify-content: center;
+    height: 46%;
+    margin-left: 10vw;
+    overflow: visible;
+}
+#ourCommunity .scrollBox{
+    display: flex;
+    column-gap: 17px;
+}
+#ourCommunity .scrollBox div{
+    width: 17.5vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+#ourCommunity .scrollBox div div{
+    height: 52%;
+    border-radius: 8px;
+    background: #19161C;
+    text-align: center;
+}
+#ourCommunity .scrollBox div img{
+    height: 48%;
+}
+#ourCommunity .scrollBox div div h3,p{
+    margin: 0;
+}
+#ourCommunity .scrollBox div div h3{
+    font-size: 36px;
+    font-weight: 400;
+    color: #19FB9B;
+}
+#ourCommunity .scrollBox div div p{
+    width: 80%;
+    font-size: 10px;
+    color: #BABABA;
+    line-height: 14px;
+    letter-spacing: 0.028vw;
+}
+#ourCommunity .scrollBox>div:first-child h3{
+    color: #F087FF;
+}
+#ourCommunity .scrollBox>div:last-child h3{
+    color: #FFEB3B;
+}
+/*-------------------------------------------------footer----------------------------------------------------*/
+footer{
+    width: 100vw;
+    height: 340px;
+    border-radius: 12px 12px 0px 0px;
+    border: 1px solid #141414;
+    background: #000508;
+    margin-top: 70px;
+    font-size: 14px;
+}
+footer>div{
+    width: 63vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.SolanaFound{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.SolanaFound>img{
+    width: 9%;
+}
+.SolanaFound div{
+    display: flex;
+    column-gap: 10px;
+}
+.SolanaFound div div{
+    width: 22px;
+    height: 16px;
+}
+.SolanaFound>div:last-child{
+    color: #848895;
+}
+.SolanaMore_andContacts{
+    width: 25vw;
+    display: flex;
+}
+.SolanaMore_andContacts>div{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+.SolanaMore_andContacts div:last-child{
+    width: 24%;
+    display: flex;
+    align-items: flex-end;
+}
+.SolanaMore_andContacts select{
+    border: none;
+    background: none;
+}
+.SolanaMore_andContacts h5{
+    margin: 0;
+    font-size: 14px;
+}
+
+
+.alignStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fontStyle{
+    font-family: Helvetica;
+    color: #FFF;
+}
+.linkStyle a, .linkStyle select{
+    color: #848895;
+    text-decoration: none;
+}
+.linkStyle a:hover, .linkStyle a:hover p, .linkStyle select:hover{
+    color: #FFF;
+}
+.linkStyle div{
+    background-color: #848895;
+}
+.linkStyle div:hover{
+    background-color: #FFF;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.button{
+    color: #FFF;
+    font-size: calc(7px + 0.39vw);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.87vh 1.82vw;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+}
+div .button:hover{
+    color: #000;
+    background: #FFF;
+}
